@@ -3,7 +3,7 @@ package telran.numbers.model;
 import telran.numbers.task.OneGroupSum;
 
 public class ThreadGroupSum extends GroupSum {
-    // TODO Homework, use pure Threads
+    // Homework, use pure Threads
     public ThreadGroupSum(int[][] numberGroups) {
         super(numberGroups);
     }

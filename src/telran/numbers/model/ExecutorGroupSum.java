@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class ExecutorGroupSum extends GroupSum {
-    // TODO Homework use ExecutorService
+    // Homework, use ExecutorService
     public ExecutorGroupSum(int[][] numberGroups) {
         super(numberGroups);
     }

@@ -3,7 +3,7 @@ package telran.numbers.model;
 import telran.numbers.task.OneGroupSum;
 
 public class OneThreadGroupSum extends GroupSum {
-    // TODO Homework use ExecutorService
+    // обычный подсчет с одним тредом для сравнения быстродействия
     public OneThreadGroupSum(int[][] numberGroups) {
         super(numberGroups);
     }
